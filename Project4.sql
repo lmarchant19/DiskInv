@@ -4,6 +4,7 @@
 /*10-9-2020		 Lmarchant		  Initial implementation of the disk inventory db */
 /*10-16-2020	 Lmarchant        Add Insert statements for all tables			  */
 /*10-22-2020     Lmarchant        Add reports as specified in Project 4           */
+/*10-28-2020     Lmarchant        Add ins, ups, del proc for the disk, artisit, borrower */
 /**********************************************************************************/
 
 --Create Database
@@ -384,3 +385,24 @@ FROM disk
 JOIN disk_has_borrower ON disk_has_borrower.disk_id = disk.disk_id
 JOIN borrower ON disk_has_borrower.borrower_id = borrower.borrower_id
 WHERE returned_date IS NULL
+
+--Project 5
+DROP PROC IF EXISTS sp_ins_disk;
+GO
+CREATE PROC sp_ins_disk
+	@disk_name nvarchar(60), @release_date date, @genre_id int,
+	@status_id int, @disk_type_id int
+AS
+	BEGIN TRY
+		INSERT disk(disk_name, release_date, genre_id, status_id, disk_type_id)
+		VALUES (@disk_name, @release_date, @genre_id, @status_id, @disk_type_id);
+	END TRY
+	BEGIN CATCH
+		PRINT 'An error occured.';
+		PRINT 'Message: ' + CONVERT(varchar(200), ERROR_MESSAGE());
+	END CATCH
+GO
+EXEC sp_ins_disk 'Superknown2', '3/3/1994', 4, 1, 1;
+GO
+EXEC sp_ins_disk 'Superknown3', '3/3/1994', 4, 1, NULL;
+GO
