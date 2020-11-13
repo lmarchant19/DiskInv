@@ -7,10 +7,10 @@ using DiskInventory.Models;
 
 namespace DiskInventory.Controllers
 {
-    public class BorrowerController : Controller
+    public class DiskController : Controller
     {
         private disk_inventorylmContext context { get; set; }     //Student context name will differ
-        public BorrowerController(disk_inventorylmContext ctx)    //Student context name will differ
+        public DiskController(disk_inventorylmContext ctx)    //Student context name will differ
         {
             context = ctx;
         }

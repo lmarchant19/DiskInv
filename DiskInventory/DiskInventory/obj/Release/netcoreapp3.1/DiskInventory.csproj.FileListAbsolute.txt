@@ -1,0 +1,7 @@
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.csprojAssemblyReference.cache
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.AssemblyInfoInputs.cache
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.AssemblyInfo.cs
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.csproj.CoreCompileInputs.cache
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.MvcApplicationPartsAssemblyInfo.cache
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.RazorAssemblyInfo.cache
+C:\DiskInv\DiskInventory\DiskInventory\obj\Release\netcoreapp3.1\DiskInventory.RazorAssemblyInfo.cs
