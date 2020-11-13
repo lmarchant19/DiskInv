@@ -16,8 +16,8 @@ namespace DiskInventory.Controllers
         }
         public IActionResult List()
         {
-            List<Borrower> borrowers = context.Borrower.OrderBy(a => a.Lname).ToList();
-            return View(borrowers);
+            List<Disk> disks = context.Disk.OrderBy(a => a.DiskName).ToList();
+            return View(disks);
         }
     }
 }

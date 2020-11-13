@@ -16,8 +16,8 @@ namespace DiskInventory.Controllers
         }
         public IActionResult List()
         {
-            List<Artist> artists = context.Artist.OrderBy(a => a.Lname).ToList();
-            return View(artists);
+            List<Borrower> borrowers = context.Borrower.OrderBy(a => a.Lname).ToList();
+            return View(borrowers);
         }
     }
 }
