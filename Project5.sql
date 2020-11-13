@@ -445,8 +445,7 @@ GO
 DROP PROC IF EXISTS sp_del_disk
 GO
 CREATE PROC sp_del_disk
- @disk_id int,	@disk_name nvarchar(60), @release_date date, @genre_id int,
-	@status_id int, @disk_type_id int
+ @disk_id int
 AS
 	BEGIN TRY
 		Delete FROM [dbo].[disk]
