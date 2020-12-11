@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2bMaeSawpoTYEWTeekRIQtfAwWB6Jbt/4A6GcgE3Mw7koumr5Bb8MoNYqZK5dVKC8nfnwos8qPc9MVTh1mbggw==",
+  "dgSpecHash": "DCmEYanld4q4rScdLDX/3sxXEoLxHPxIwnjyBZBTTyZTh3+Ypw/zt685bsCRXVJBnLHpNug9FmiOINHtdmck7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+  "projectFilePath": "C:\\DiskInv\\DiskInventory1\\DiskInventory\\DiskInventory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LMarchant\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\LMarchant\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

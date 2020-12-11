@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {}
+    "C:\\DiskInv\\DiskInventory1\\DiskInventory\\DiskInventory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {
+    "C:\\DiskInv\\DiskInventory1\\DiskInventory\\DiskInventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+        "projectUniqueName": "C:\\DiskInv\\DiskInventory1\\DiskInventory\\DiskInventory.csproj",
         "projectName": "DiskInventory",
-        "projectPath": "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+        "projectPath": "C:\\DiskInv\\DiskInventory1\\DiskInventory\\DiskInventory.csproj",
         "packagesPath": "C:\\Users\\LMarchant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LMarchant\\Downloads\\DiskInv\\DiskInventory\\DiskInventory\\obj\\",
+        "outputPath": "C:\\DiskInv\\DiskInventory1\\DiskInventory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LMarchant\\AppData\\Roaming\\NuGet\\NuGet.Config",

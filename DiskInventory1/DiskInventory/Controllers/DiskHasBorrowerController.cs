@@ -17,10 +17,10 @@ namespace DiskInventory.Controllers
         }
         public IActionResult List()
         {
-            List<DiskHasBorrower> diskhasborrowers = context.DiskHasBorrower.OrderBy(db => db.DiskId).ThenBy(db => db.BorrowerId).ToList();
-            //var diskhasborrowers = context.DiskHasBorrower.OrderBy(db => db.BorrowedDate).
-            //    Include(d => d.Disk).OrderBy(d => d.DiskId).
-            //    Include(b => b.Borrower).OrderBy(b => b.BorrowerId).ToList();
+            //List<DiskHasBorrower> diskhasborrowers = context.DiskHasBorrower.OrderBy(db => db.DiskId).ThenBy(db => db.BorrowerId).ToList();
+            var diskhasborrowers = context.DiskHasBorrower.OrderBy(db => db.BorrowedDate).
+                Include(d => d.Disk).OrderBy(d => d.DiskId).
+                Include(b => b.Borrower).OrderBy(b => b.BorrowerId).ToList();
             return View(diskhasborrowers);
         }
 
